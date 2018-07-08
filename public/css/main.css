@@ -1,0 +1,145 @@
+body{
+	/*margin-top: 61px;*/
+	background-color: #FFFFFF;
+	font-family: 'Rubik', sans-serif;
+	color: #808489;
+	width: 100%;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(157,157,157,0.85), rgba(0, 0, 0, 0));
+    margin-bottom: 40px;
+}
+
+li{
+	list-style: none;
+}
+
+p{
+	/*text-indent: 30px;*/
+	padding: 0 6.5%;
+	color: #808489;
+}
+
+a{
+	color:#808489;
+}
+
+a:hover{
+	color:#F68359;
+	text-decoration: none;
+}
+
+form{
+	margin-top:61px;
+}
+
+.card-title{
+	color: #343A40;
+}
+
+.orange{
+	padding-top: 20px;
+	color:#F68359;
+}
+
+.textShadow{
+	text-shadow: 0px 2px 1px rgba(246,131,89,0.4),
+	0px 5px 10px rgba(0,0,0,0.2),
+	0px 14px 19px rgba(0,0,0,0.1);
+
+}
+
+.textJustify{
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.section{
+	padding: 50px 0;
+}
+
+.card{
+	background-color: transparent;
+	border-style: none;
+}
+
+.container1{
+	margin-right: 15px;
+}
+
+.upload:hover{
+	color:	#F68359;
+}
+
+@media(min-width: 768px){
+	.serviceTabs{
+		display: flex;
+	}
+
+	#navDownStripe{
+	margin-top: 56px;
+	height: 5px;
+	background-color: #F68359;
+	}
+
+	#map{
+	padding-left: 80px;
+	}
+}
+
+#box1{
+	flex:1;
+}
+
+#box2{
+	flex:1;
+}
+
+#box3{
+	flex:1;
+}
+
+#box4{
+	flex:1;
+}
+
+#content{
+	color:#343A40;
+}
+
+#aboutUs{
+	margin-top: 30px;	
+}
+#empty{
+	margin-top: 8em;
+}
+
+#add{
+
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#map{
+	min-height: 200px;
+	height: 30vw;
+}
+
+#socialLinks{
+	font-size: 30px;
+}
+
+#uploadText{
+	padding: 0;
+}
+
+#careerForm{
+	max-width:650px;
+	justify-content: center;
+	margin:auto;
+}

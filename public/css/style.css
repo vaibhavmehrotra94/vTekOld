@@ -1,0 +1,64 @@
+a{
+	color: white;
+	font-weight: 400;
+}
+
+.linkFont{
+	font-size: 15px;
+}
+
+.main-text
+{
+	padding:0;
+	margin: 0;
+    position: absolute;
+   	top: 1px;
+   	padding-top: 33vh;
+}
+
+.customHieght{
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	opacity:0.5;
+}
+
+@media(min-width: 768px){
+
+	#myStyle{
+		padding-top: 18% ;
+	}
+	#home{
+		text-align: right;
+	}
+	#services{
+		text-align: left;
+	}
+}
+
+#landingHead{
+	margin-bottom: 3%;
+	font-weight: 400;
+	font-size: 10vw;
+	color:white;
+}
+
+#wrapper{
+	margin: auto;
+	max-width: 40vw;
+}
+#myStyle{
+	width:100%;
+	margin:auto;
+	justify-content: center;
+	text-align: center;
+}
+
+#mainHeader{
+	margin: auto;
+}
+
+#mainPageMargin{
+	width:100em;
+}

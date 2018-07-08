@@ -1,0 +1,88 @@
+<% include partials/head %>
+
+	<div class="container" id="empty">
+		<!-- Form Starts -->
+		<form action="/careers/new" method="POST" id="careerForm">
+
+			<!-- Name -->
+				<div class="form-group row">
+					<label for="firstName" class="col-sm-2 col-form-label">First Name</label>
+					<div class="col-sm-10">
+					    <input type="text" class="form-control" name="firstName" placeholder="First Name" required>
+					</div>
+				</div><!-- Name ends-->
+
+			<!-- Last Name -->
+				<div class="form-group row">
+					<label for="lastName" class="col-sm-2 col-form-label">Last Name</label>
+					<div class="col-sm-10">
+					    <input type="text" class="form-control" name="lastName" placeholder="Last Name" required>
+					</div>
+				</div><!-- Last Name ends-->
+
+			<!-- Contact Number -->
+				<div class="form-group row">
+				    <label for="phoneNo" class="col-sm-2 col-form-label">PhoneNo.</label>
+				    <div class="col-sm-10">
+					    <input type="tel" class="form-control" name="phoneNo" placeholder="Phone No." minlength="10" maxlength="10" required>
+					</div>
+				</div><!-- Contact Number ends-->
+
+			<!-- E-mail -->
+				<div class="form-group row">
+					<label for="email" class="col-sm-2 col-form-label">Email</label>
+					<div class="col-sm-10">
+					    <input type="email" class="form-control" name="email" placeholder="E-mail Address" required>
+					</div>
+				</div><!-- E-mail ends -->
+
+			<!-- Job Type -->
+				<fieldset class="form-group">
+				    <div class="row">
+					    <legend class="col-form-label col-sm-2 pt-0">Looking For</legend>
+					    <div class="col-sm-10">
+					        <div class="form-check">
+						        <input class="form-check-input" type="radio" name="jobType" id="jobType1" value="full-time" checked>
+						        <label class="form-check-label" for="jobType1">
+						     		Full-Time
+						        </label>
+					        </div>
+					        <div class="form-check">
+						        <input class="form-check-input" type="radio" name="jobType" id="jobType2" value="part-time">
+						        <label class="form-check-label" for="jobType2" >
+							        Part-Time
+						        </label>
+						    </div>
+						    <div class="form-check">
+						        <input class="form-check-input" type="radio" name="jobType" id="jobType3" value="internship">
+						        <label class="form-check-label" for="jobType3" >
+						        	Internship
+						    	</label>
+						    </div>
+						</div>
+					</div>
+				</fieldset><!-- Job Type Ends-->
+
+			<!-- Upload File -->
+				<div class="form-group">
+	    			<label for="exampleFormControlFile1">Resume</label>
+	    			<input type="file" class="form-control-file" enctype="multipart/form-data" name="upload" required>
+				</div>
+		  		<div class="form-group">
+		  			<p id="uploadText"><small> Supported formats- .doc, .docx, .pdf</small></p>
+		  		</div><!-- Upload File Ends-->
+
+	  		<!-- Submit Btn -->
+				<div class="input-group mb-3">
+	  				<div class="form-group row">
+					    <div class="col-sm-10">
+						    <button type="submit" class="btn btn-secondary upload">Upload</button>
+						</div>
+	  				</div>
+	  			</div><!-- Submit Btn Ends-->
+
+		</form><!--Form Ends-->
+	</div>
+	
+
+<% include partials/foot %>
