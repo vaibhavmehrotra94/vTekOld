@@ -1,7 +1,7 @@
 {
   "name": "vapptek",
   "version": "1.0.0",
-  "description": "official vapptek website",
+  "description": "Initial official vapptek website",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
